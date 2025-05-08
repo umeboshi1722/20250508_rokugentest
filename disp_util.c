@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+void disp_stick(int height)
+{
+  printf("X\n");
+  printf("X\n");
+  printf("X\n");
+  printf("X\n");
+  printf("X\n");
+  
+  return;
+}
+
 void disp_triangle(int height)
 {
   printf("    X\n");
