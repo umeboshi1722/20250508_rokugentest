@@ -3,11 +3,9 @@
 // ume
 void disp_stick(int height)
 {
-  printf("X\n");
-  printf("X\n");
-  printf("X\n");
-  printf("X\n");
-  printf("X\n");
+  for(int i = 0; i < height; i++){
+    printf("X\n");
+  }
   
   return;
 }
