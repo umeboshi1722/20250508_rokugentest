@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+// ume
 void disp_stick(int height)
 {
   printf("X\n");
@@ -11,6 +12,7 @@ void disp_stick(int height)
   return;
 }
 
+// iso
 void disp_triangle(int height)
 {
   printf("    X\n");
@@ -22,6 +24,7 @@ void disp_triangle(int height)
   return;
 }
 
+// haji
 void disp_triangle_reverse(int height)
 {
   printf("XXXXXXXXX\n");
@@ -33,6 +36,7 @@ void disp_triangle_reverse(int height)
   return;
 }
 
+// tsuna
 void disp_square(int height)
 {
   printf("XXXXX\n");
