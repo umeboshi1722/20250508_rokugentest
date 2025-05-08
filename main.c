@@ -1,10 +1,19 @@
 #include <stdio.h>
+#include "disp_util.h"
 
 int main()
 {
-  printf("Hello Git1!\n");
-  printf("Hello Git2!\n");
-  printf("Hello Git3!\n");
+  disp_triangle(5);
+
+  printf("\n");
+
+  disp_triangle_reverse(5);
+
+  printf("\n");
+
+  disp_square(5);
+
+  printf("\n");
 
   return 0;
 }
