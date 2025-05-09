@@ -36,12 +36,7 @@ void disp_triangle_reverse(int height)
     }
     printf("\n");
   }
-  //printf("XXXXXXXXX\n");
-  //printf(" XXXXXXX\n");
-  //printf("  XXXXX\n");
-  //printf("   XXX\n");
-  //printf("    X\n");
-
+  
   return;
 }
 
