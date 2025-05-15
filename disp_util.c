@@ -25,12 +25,16 @@ void disp_triangle(int height)
 // haji
 void disp_triangle_reverse(int height)
 {
-  printf("XXXXXXXXX\n");
-  printf(" XXXXXXX\n");
-  printf("  XXXXX\n");
-  printf("   XXX\n");
-  printf("    X\n");
-
+  for(int i = 1; i <= height; i++){
+    for(int j = 1; j <= i-1; j++){
+      printf(" ");
+    }
+    for(int k = 1; k <= 2*(height-i)+1 ; k++){
+      printf("X");
+    }
+    printf("\n");
+  }
+  
   return;
 }
 
