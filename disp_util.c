@@ -37,11 +37,9 @@ void disp_triangle_reverse(int height)
 // tsuna
 void disp_square(int height)
 {
-  printf("XXXXX\n");
-  printf("XXXXX\n");
-  printf("XXXXX\n");
-  printf("XXXXX\n");
-  printf("XXXXX\n");
+  for(int i = 0; i < height; i++){
+    printf("XXXXX\n");
+  }
 
   return;
 }
